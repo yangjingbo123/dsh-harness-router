@@ -1,0 +1,41 @@
+{
+  "name": "dsh-harness-router",
+  "version": "0.1.0",
+  "description": "Task-aware harness routing for DeepSeek Harness: classify the first user request, then apply the matching prompt guidance and tool policy.",
+  "type": "module",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./router-core": "./router-core.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "router-core.js",
+    "cordis.patch.yml",
+    "README.md",
+    "README.zh.md",
+    "LICENSE",
+    "NOTICE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "harness",
+    "router",
+    "prompt-routing"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  }
+}

@@ -1,0 +1,19 @@
+NOTICE
+
+dsh-harness-router builds on DeepSeek Harness and on prior MIT-licensed work:
+
+- yjh051108/dsh-routing-suite (MIT, Copyright (c) 2026 yjh051108)
+  Source: https://github.com/yjh051108/dsh-routing-suite
+  The router-core classification approach and the agent/inbox/claimed routing
+  pattern are adapted from its router-standard preset.
+
+- DoreiHime/dsh-help-me-to-ask (MIT)
+  Source: https://github.com/DoreiHime/dsh-help-me-to-ask
+  Clarification-first interaction ideas informed the clarify route.
+
+- DeepSeek Harness standard preset (MIT)
+  Source: https://github.com/deepseek-ai/deepseek-harness
+  Baseline agent preset composition concepts.
+
+DeepSeek is a trademark of its respective owner. This is a community project
+and is not endorsed by DeepSeek.

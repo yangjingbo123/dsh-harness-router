@@ -1,0 +1,8 @@
+# dsh-harness-router bundle patch.
+# The row id is also the settings/diagnostic namespace; keep it stable.
+- insert:
+    - id: harness-router
+      name: 'dsh-harness-router'
+      config:
+        defaultRoute: balanced
+        log: true
